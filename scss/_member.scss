@@ -1,0 +1,82 @@
+.person-info{
+	padding-top: 20px;
+}
+.team-person-photo{
+	border-radius: 12px;
+	width: 100%;
+}
+.header-name{
+	font-size: 42px;
+	line-height: 50px;
+	    background: -webkit-linear-gradient(#F0145A 100%, #EF8080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 10px;
+    @media (max-width: 992px){
+    font-size: 32px;
+    }
+}
+
+.person-links{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	padding: 0px;
+	@media (max-width: 992px){
+    align-items: flex-start;
+    flex-direction: column;
+    list-style: none;
+	}
+}
+.person-contact{
+	margin-left: 26px;
+		@media (max-width: 992px){
+		margin-left: 0;
+		margin-top: 10px;
+	}
+}
+	.person-contact a{
+text-decoration: none;
+font-size: 16px;
+line-height: 19px;
+vertical-align: middle;
+color: $blue;
+	}
+li::marker{
+	color: #E6E6F0;
+}
+
+.separator{
+border: 3px solid #E6E6F0;
+background-color: #E6E6F0;
+}
+.person-life{
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+margin: 30px 0;
+@media (max-width: 992px){
+	margin: 20px 0;
+	}
+}
+
+.person-education{
+font-weight: bold;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 0;
+color: $darkblue;
+line-height: 17px;
+}
+.dist {
+    margin-top: 10px;
+}
+
+.team-member{
+	margin-bottom: 80px;
+	@media (max-width: 992px){
+		margin-bottom: 40px;
+	}
+}

@@ -1,0 +1,108 @@
+.team-container{
+	max-width: 1370px;
+  margin-bottom: 30px;
+}
+
+    .navbar-team{
+      margin: 50px 0;
+        @media (max-width: 992px){
+          margin-bottom: 30px; 
+        }
+    }
+
+.row{
+	justify-content: center;
+	.main-text{
+		margin-bottom: 80px;
+	}
+
+	.main-text{
+		font-weight: 700;
+    background: -webkit-linear-gradient(#F0145A 100%, #EF8080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+		font-size: 42px;
+		line-height: 50px;
+    margin-top: 24px;
+    @media (max-width: 1199px){
+      font-size: 32px;
+      width: 90%;
+    }
+    @media (max-width: 575px){
+      line-height: 38px;
+      width: 100%;
+      margin-top: 0;
+    }
+	}
+}
+
+.team{
+		margin-top: 80px;
+		  &-item {
+    margin-bottom: 40px;
+    padding: 0 8px;
+    &-link{
+      text-decoration: none;
+      color: black;
+      @media (max-width: 575px){
+        margin-top: 10px;
+      }
+    }
+
+    &-img {
+      
+      &-genders{
+        border-radius: 12px;
+        object-fit: scale-down;
+        width: 100%;
+      }
+    }
+    &-specification {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+
+      @media (max-width: 575px){
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+      }
+    }
+    &-person-name {
+      font-size: 18px;
+      font-weight: 500;
+      text-align: left;
+      line-height: 21.2px;
+      @media (max-width: 369px){
+        font-size: 15px;
+      }
+    }
+        &-person-care {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 5px;
+      color: #B3B3BA;
+            @media (max-width: 369px){
+        font-size: 15px;
+      }
+    }
+        &-arrow {
+      width: 32px;
+      height: 32px;
+      border-radius: 100%;
+      background: url(../img/arrow-back.svg) no-repeat;
+    }
+}
+}
+
+
+@media (max-width: 370px){
+.team .team-container {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: calc(100% - 20px);
+}
+}
+
